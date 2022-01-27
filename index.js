@@ -48,7 +48,7 @@ movieSites.forEach(movieSite => {
 })
 
 app.get('/', (req,res)=>{
-    res.json('welcome to my movies api')
+    res.json('welcome to my movies api. Visit the /movies endpoint')
 })
 
 app.get('/movies', (req,res)=>{
